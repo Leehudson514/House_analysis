@@ -25,7 +25,11 @@
            * Formated data & columns
     * Created database using PGadmin
        * Uploaded data to database
-       * Linked data together using zipcode as the primary key   
+       * Linked data together using zipcode as the primary key
+
+## Machine Learning  
+* 
+
 
 ## Summary
 
