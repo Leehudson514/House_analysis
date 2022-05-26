@@ -37,6 +37,8 @@ Data Source: https://www.zillow.com/research/data/
 
 Tableau: https://public.tableau.com/app/profile/lee.hudson/viz/USA_Housing_Analysis/USAHouseAnalysis
 
+Tableau Investor Tool: https://public.tableau.com/app/profile/lee.hudson/viz/InvestorUSAHousingTool/Sheet1?publish=yes
+
 Slides: https://docs.google.com/presentation/d/1yvhs2nej9Mj-ebhnq9GAcBj3cU6fFodopAkSDIezXXM/edit#slide=id.p
 
 
