@@ -22,14 +22,9 @@ CREATE TABLE "homevalue" (
   "date" timestamp
 );
 
-CREATE TABLE "income" (
+CREATE TABLE "income_population" (
   "state" varchar UNIQUE,
   "income" int,
-  "date" timestamp
-);
-
-CREATE TABLE "population" (
-  "state" varchar UNIQUE,
   "population" int,
   "date" timestamp
 );
@@ -40,24 +35,12 @@ ALTER TABLE "homevalue" ADD FOREIGN KEY ("zipcode") REFERENCES "geo" ("zipcode")
 
 ALTER TABLE "homevalue" ADD FOREIGN KEY ("date") REFERENCES "rent" ("date");
 
-ALTER TABLE "income" ADD FOREIGN KEY ("date") REFERENCES "homevalue" ("date");
-
-ALTER TABLE "income" ADD FOREIGN KEY ("state") REFERENCES "homevalue" ("state");
-
-ALTER TABLE "homevalue" ADD FOREIGN KEY ("date") REFERENCES "population" ("date");
-
-ALTER TABLE "homevalue" ADD FOREIGN KEY ("state") REFERENCES "population" ("state");
-
-ALTER TABLE "rent" ADD FOREIGN KEY ("date") REFERENCES "population" ("date");
-
-ALTER TABLE "rent" ADD FOREIGN KEY ("state") REFERENCES "population" ("state");
-
-ALTER TABLE "rent" ADD FOREIGN KEY ("date") REFERENCES "income" ("date");
-
-ALTER TABLE "rent" ADD FOREIGN KEY ("state") REFERENCES "income" ("state");
-
-ALTER TABLE "income" ADD FOREIGN KEY ("date") REFERENCES "population" ("date");
-
-ALTER TABLE "income" ADD FOREIGN KEY ("state") REFERENCES "population" ("state");
-
 ALTER TABLE "rent" ADD FOREIGN KEY ("zipcode") REFERENCES "homevalue" ("zipcode");
+
+ALTER TABLE "homevalue" ADD FOREIGN KEY ("state") REFERENCES "income_population" ("state");
+
+ALTER TABLE "rent" ADD FOREIGN KEY ("state") REFERENCES "income_population" ("state");
+
+ALTER TABLE "homevalue" ADD FOREIGN KEY ("date") REFERENCES "income_population" ("date");
+
+ALTER TABLE "rent" ADD FOREIGN KEY ("date") REFERENCES "income_population" ("date");
