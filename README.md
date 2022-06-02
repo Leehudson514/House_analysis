@@ -26,6 +26,7 @@
     * Created **database** using PGadmin
        * Uploaded data to database
        * Linked data together using zipcode as the primary key
+       * Connected static data on income and population by state
 
 ![goals](https://github.com/Leehudson514/House_analysis/blob/main/Resources/photos/database.png)
 
@@ -33,15 +34,14 @@
 * 
 
 ## Dashboard
-* 
+* Created an interactive map using Tableau Public that will allow investors to pinpoint potential markets that will have high return on investments.
+* Tableau Investor Tool:https://public.tableau.com/app/profile/lee.hudson/viz/InvestorUSAHousingTool/USAHousingOverview?publish=yes
 
 ![goals](https://github.com/Leehudson514/House_analysis/blob/main/Resources/photos/map.png)
 
 ## Summary
 
 Data Source: https://www.zillow.com/research/data/
-
-Tableau Investor Tool:https://public.tableau.com/app/profile/lee.hudson/viz/InvestorUSAHousingTool/USAHousingOverview?publish=yes
 
 Slides: https://docs.google.com/presentation/d/1yvhs2nej9Mj-ebhnq9GAcBj3cU6fFodopAkSDIezXXM/edit#slide=id.p
 
