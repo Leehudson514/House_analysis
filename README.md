@@ -23,15 +23,19 @@
            * Drop null values
            * Switch data from wide to long
            * Formated data & columns
-    * Created database using PGadmin
+    * Created **database** using PGadmin
        * Uploaded data to database
        * Linked data together using zipcode as the primary key
+
+![goals](https://github.com/Leehudson514/House_analysis/blob/main/Resources/photos/database.png)
 
 ## Machine Learning  
 * 
 
 ## Dashboard
 * 
+
+![goals](https://github.com/Leehudson514/House_analysis/blob/main/Resources/photos/map.png)
 
 ## Summary
 
