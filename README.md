@@ -35,7 +35,7 @@
 
 ## Dashboard
 * Created an interactive map using Tableau Public that will allow investors to pinpoint potential markets that will have high return on investments.
-* Tableau Investor Tool:https://public.tableau.com/app/profile/lee.hudson/viz/InvestorUSAHousingTool/USAHousingOverview?publish=yes
+* Tableau Investor Tool: https://public.tableau.com/app/profile/lee.hudson/viz/InvestorUSAHousingTool/USAHousingOverview?publish=yes
 
 ![goals](https://github.com/Leehudson514/House_analysis/blob/main/Resources/photos/map.png)
 
