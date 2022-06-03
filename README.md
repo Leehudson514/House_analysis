@@ -52,12 +52,12 @@ The limitations and disadvantages of logistic regression are the assumptions of 
 
 During the 3rd deliverable, we were able to conclude that our initial approach to the data is no longer the best choice for continuous value and a regression model. While trying various model that best suits our hypothesis, we were able to narrow down between linear regression model. As well as a cluster model and using a boxplot to illustrate the relations between years and changes in rent.
 
-<img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png"><img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png">
+<img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png">
 
 ✓ Description of how they have trained the model thus far, and any additional training that will take place
 The model we have trained thus far is shown to have a coefficient that is positive and there is a distinct relation between the years of the house value and the rent. Upwards trends can be spotted.
 
-<img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png">
+<img width="430" alt="image" src="https://user-images.githubusercontent.com/92479644/171793948-5f03603b-16b2-475f-bb6f-eafa8a0e16a3.png">
 
 
 ## Dashboard
