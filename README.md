@@ -8,7 +8,7 @@
 ## Results
 
 * Problem Statement:
-    * There has been a rapid increases in American housing prices which is decreasing housing affordablity and overall quality of life for the average working american. 
+    * There has been a rapid increases in American housing prices which is decreasing housing affordability and overall quality of life for the average working american. 
     
 * Desired Solution:
     * Identify the most affordable geographical regions to purchase a primary home and or investment property.
