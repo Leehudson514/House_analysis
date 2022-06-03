@@ -48,6 +48,14 @@ The data was split using sklearn.traing_test_split. Logistic regressions were us
 Some of the advantages of logistic regression will be its easy implementation and very efficient to train. Also, it has the capabilities of extending to multinomial regression and a natural probabilistic view of the class predictions.
 The limitations and disadvantages of logistic regression are the assumptions of the relationship between the dependent and independent variables.
 
+✓ Explanation of changes in model choice (if changes occurred between the Segment 2 and Segment 3 deliverables)
+
+During the 3rd deliverable, we were able to conclude that our initial approach to the data is no longer the best choice for continuous value and a regression model. While trying various model that best suits our hypothesis, we were able to narrow down between linear regression model. As well as a cluster model and using a boxplot to illustrate the relations between years and changes in rent.
+
+<img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png"><img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png">
+
+✓ Description of how they have trained the model thus far, and any additional training that will take place
+The model we have trained thus far is shown to have a coefficient that is positive and there is a distinct relation between the years of the house value and the rent. Upwards trends can be spotted.
 
 <img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png">
 
