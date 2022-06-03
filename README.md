@@ -14,7 +14,7 @@
     * Identify the most affordable geographical regions to purchase a primary home and or investment property.
     
 * Steps Taken: 
-    * Extract data from source (Zillow.com)
+    * Extract data from source ([Zillow.com](https://www.zillow.com/research/data/)
         * Average rent by zipcode
         * Average home Value by zipcode
     * Extract data by state:
@@ -63,14 +63,19 @@ The model we have trained thus far is shown to have a coefficient that is positi
 
 
 ## Dashboard
-* Created an interactive map using Tableau Public that will allow investors to pinpoint potential markets that will have high return on investments.
+* Interactive map using Tableau Public that will allow investors to pinpoint potential markets that will have high return on investments.
+    * The cleaned data from zillow is being visually represented using maps and charts to make it easily digestible for any investor.
 * Tableau Investor Tool: https://public.tableau.com/app/profile/lee.hudson/viz/InvestorUSAHousingTool/USAHousingOverview?publish=yes
 
 ![goals](https://github.com/Leehudson514/House_analysis/blob/main/Resources/photos/map.png)
 
 ## Summary
-
-Data Source: https://www.zillow.com/research/data/
+* Limitations:
+    * The data used by zillow has limitations because it uses all properties as an average and does not take into consideration, cost per average square foot, number of bedrooms, number of bathrooms, age of the property, lastly wether the home is a condo, townhouse or single family home.
+* Recommendations:
+    * It would be recommended for future analysis to use $ amount per square foot which will give a better indicator  to the average and make easily applicaple to investors to compare to their targeted market.
+    * Additonally, data on all home characteristics would add a lot of value to the tools.
+        *  This would be useful to be able to target specific houses such as a 2 bedroom and 2 bathroom home to narrow down the investors search even further.
 
 Slides: https://docs.google.com/presentation/d/1yvhs2nej9Mj-ebhnq9GAcBj3cU6fFodopAkSDIezXXM/edit#slide=id.p
 
