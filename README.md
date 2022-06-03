@@ -31,7 +31,26 @@
 ![goals](https://github.com/Leehudson514/House_analysis/blob/main/Resources/photos/database.png)
 
 ## Machine Learning  
-* 
+* ✓ Description of preliminary data preprocessing?
+Initially, we had to limit the number of columns to make it as compact of a data source as possible. Eliminating some of the less insightful columns that will no longer be needed down the road. After some cleansing, we were able to extract the items that were essential to making our dataset robust. 
+
+
+✓ Description of preliminary feature engineering and preliminary feature selection, including their decision-making process?
+Some of the preliminary feature engineerings we were able to select from the variable are "rent", "homevalue" and "zipcode" because we are basing our feature extraction on a geographic location and its duration over time.
+
+
+✓ Description of how data was split into training and testing sets?
+The data was split using sklearn.traing_test_split. Logistic regressions were used to test the initial test and are later compared with RandomOversamplfier. Determining the best method to move forward with the data that we have so we can provide the highest accuracy. 
+
+
+✓ Explanation of model choice, including limitations and benefits?
+
+Some of the advantages of logistic regression will be its easy implementation and very efficient to train. Also, it has the capabilities of extending to multinomial regression and a natural probabilistic view of the class predictions.
+The limitations and disadvantages of logistic regression are the assumptions of the relationship between the dependent and independent variables.
+
+
+<img width="545" alt="image" src="https://user-images.githubusercontent.com/92479644/171791441-37ce5926-9565-404c-8901-f07f95aab6b3.png">
+
 
 ## Dashboard
 * Created an interactive map using Tableau Public that will allow investors to pinpoint potential markets that will have high return on investments.
