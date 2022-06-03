@@ -4,7 +4,7 @@
 ## Overview
 * The purpose of this analysis is to extract data from zillow on housing rental prices within the united states to determine where the most affordable places are to rent and buy a home is as well as to attempt to predict future prices.
 * Additoanlly, the is to create a tool that investors can use to determine the best geographical regions within the United States to build equity.
-* 
+
 ## Results
 
 * Problem Statement:
