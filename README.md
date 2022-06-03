@@ -71,11 +71,11 @@ The model we have trained thus far is shown to have a coefficient that is positi
 
 ## Summary
 * Limitations:
-    * The data used by zillow has limitations because it uses all properties as an average and does not take into consideration, cost per average square foot, number of bedrooms, number of bathrooms, age of the property, lastly wether the home is a condo, townhouse or single family home.
+    * The data used by zillow has limitations because it uses all properties as an average and does not take into consideration, cost per average square foot, number of bedrooms, number of bathrooms, age of the property, lastly whether the home is a condo, townhouse or single family home.
     * There is missing data for some cities and dates which means we cannot make a conclusion for the entire nation, only the states we have data for.
 * Recommendations:
-    * It would be recommended for future analysis to use $ amount per square foot which will give a better indicator  to the average and make easily applicaple to investors to compare to their targeted market.
-    * Additonally, data on all home characteristics would add a lot of value to the tools.
+    * It would be recommended for future analysis to use $ amount per square foot which will give a better indicator to the average home value and make it easily applicable to investors to compare to their targeted market.
+    * Additionally, data on all home characteristics would add a lot of value to the tools.
         *  This would be useful to be able to target specific houses such as a 2 bedroom and 2 bathroom home to narrow down the investors search even further.
 
 Slides: https://docs.google.com/presentation/d/1yvhs2nej9Mj-ebhnq9GAcBj3cU6fFodopAkSDIezXXM/edit#slide=id.p
