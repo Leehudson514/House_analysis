@@ -59,7 +59,7 @@ During the 3rd deliverable, we were able to conclude that our initial approach t
 ✓ Description of how they have trained the model thus far, and any additional training that will take place
 The model we have trained thus far is shown to have a coefficient that is positive and there is a distinct relation between the years of the house value and the rent. Upwards trends can be spotted.
 
-<img width="430" alt="image" src="https://user-images.githubusercontent.com/92479644/171793948-5f03603b-16b2-475f-bb6f-eafa8a0e16a3.png">
+<img width="505" alt="image" src="https://user-images.githubusercontent.com/92479644/172035169-ee4c4179-f5b3-4328-91cc-3ff4d34fc632.png">
 
 
 ## Dashboard
